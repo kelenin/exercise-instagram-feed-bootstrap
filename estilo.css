@@ -1,0 +1,69 @@
+body {
+    background: white;
+
+}
+
+.contents{
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(211, 211, 208);
+    width: 100%;
+    animation: cambio 4s infinite alternate;
+    position: absolute;
+}
+
+ul {
+    
+    list-style-type: none;
+    padding: 0px;
+    width: 30%;
+
+}
+
+li {
+    display: block;
+    background: white;
+}
+
+.photo-header {
+    display: flex;
+}
+
+.palabras
+{
+    padding: 10px;
+    font-size: 13px;
+}
+
+.numeros
+{
+    padding-top: 10px;
+    font-size: 13px;
+    margin-left: 70%;
+}
+
+.photo-footer
+{
+    margin: 15px;
+}
+
+.photo-footer p{
+    text-align: justify;
+    font-size: 16px;
+}
