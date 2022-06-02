@@ -9,12 +9,6 @@ body {
     margin: auto;
 }
 
-h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
 .posts{
     display: flex;
     flex-direction: column;
