@@ -3,17 +3,67 @@ body {
 
 }
 
-.posts {
-    display: flex;
-	width: 100%;
-	height: 800px;
-	justify-content: center;
-	align-items: center;
-	background: rgb(211, 211, 208);
+.contents{
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
 
 }
 
+.posts {
+    display: flex;
+	width: 100%;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgb(211, 211, 208);
+    position: absolute;
 
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    width: 35%;
+    margin-top: 100%;
+
+    
+}
+
+li {
+    display: block;
+    background: white;
+}
+
+.photo-header {
+    display: flex;
+}
+
+.palabras
+{
+    padding: 8px;
+    font-size: 13px;
+}
+
+.numeros
+{
+    padding-top: 10px;
+    font-size: 13px;
+    margin-left: 60%;
+}
+
+.photo-footer
+{
+    margin: 15px;
+}
+
+.photo-footer p{
+    text-align: justify;
+    font-size: 16px;
+}
 /*.posts{
     display: flex;
     flex-direction: column;
