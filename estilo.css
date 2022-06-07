@@ -3,9 +3,13 @@ body {
 
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .contents{
     width: 100%;
-    height: 800px;
+    height: 1100px;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -20,7 +24,6 @@ body {
 	align-items: center;
 	background: rgb(211, 211, 208);
     position: absolute;
-
 
 }
 
@@ -64,52 +67,3 @@ li {
     text-align: justify;
     font-size: 16px;
 }
-/*.posts{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: rgb(211, 211, 208);
-    margin: auto;
-    margin-top: 100px;
-}
-
-ul {
-    
-    list-style-type: none;
-    padding: 0px;
-    width: 40%;
-
-}
-
-li {
-    display: block;
-    background: white;
-}
-
-.photo-header {
-    display: flex;
-}
-
-.palabras
-{
-    padding: 8px;
-    font-size: 13px;
-}
-
-.numeros
-{
-    padding-top: 10px;
-    font-size: 13px;
-    margin-left: 70%;
-}
-
-.photo-footer
-{
-    margin: 15px;
-}
-
-.photo-footer p{
-    text-align: justify;
-    font-size: 16px;
-}*/
